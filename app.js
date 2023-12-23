@@ -35,7 +35,7 @@ datos.results.forEach(pelicula => {
    <h3>${pelicula.title}</h3>
    `;
 });
-
+console.log(peliculas);
 document.getElementById("contenedor").innerHTML=peliculas;
 
 }else if (respuesta.status===401){
